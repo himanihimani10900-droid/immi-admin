@@ -285,6 +285,7 @@ const AdminDashboard: React.FC = () => {
                 <option value="Processing">⏳ Processing</option>
                 <option value="Visa grant">✅ Visa Grant</option>
                 <option value="Immi Refusal">❌ Immi Refusal</option>
+                <option value="Finalized">✅ Finalized</option>
                 <option value="Pending">⏳ Pending</option>
                 <option value="Hold">🔒 Hold</option>
               </select>
