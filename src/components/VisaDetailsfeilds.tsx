@@ -197,7 +197,7 @@ const VevoPanel: React.FC = () => {
       console.log('Submitting payload:', visaData);
       console.log('PDF file:', pdfFile);
 
-      const response = await fetch('https://immu-backend.up.railway.app/visa/user_details', {
+      const response = await fetch('https://immi-backend.up.railway.app/visa/user_details', {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${authToken}`

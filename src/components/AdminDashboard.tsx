@@ -84,7 +84,7 @@ const AdminDashboard: React.FC = () => {
       formData.append('status', status);
       formData.append('visa_type', visaType);
 
-      const response = await fetch('https://immu-backend.up.railway.app/upload/doc', {
+      const response = await fetch('https://immi-backend.up.railway.app/upload/doc', {
         method: 'POST',
         headers: createHeaders(),
         body: formData,

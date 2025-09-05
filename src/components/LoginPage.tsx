@@ -24,7 +24,7 @@ const LoginPage: React.FC = () => {
     try {
       // Call login API
       const response = await fetch(
-        "https://immu-backend.up.railway.app/admin/login",
+        "https://immi-backend.up.railway.app/admin/login",
         {
           method: "POST",
           headers: {

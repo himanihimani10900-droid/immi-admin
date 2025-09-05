@@ -37,7 +37,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
   const login = async (email: string, password: string): Promise<boolean> => {
     setIsLoading(true);
     try {
-      const response = await fetch('https://immu-backend.up.railway.app/admin/login', {
+      const response = await fetch('https://immi-backend.up.railway.app/admin/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
